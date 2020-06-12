@@ -1,0 +1,22 @@
+# some-little-experiences
+xampp的mysql的
+默认访问地址为：localhost
+默认用户名为：root
+默认密码为：空
+
+修改密码
+打开：http://localhost:8080/phpmyadmin/
+修改账户信息里面localhost的密码
+
+第一次安装xampp：
+打开xampp界面的终端：
+ apt-get update
+ apt-get install nano
+ cd ../opt/lampp/phpmyadmin
+ nano config.inc.php
+更改此处密码：
+/* Authentication type */
+$cfg['Servers'][$i]['auth_type'] = 'config';
+$cfg['Servers'][$i]['user'] = 'root';
+$cfg['Servers'][$i]['password'] = '123456';
+
