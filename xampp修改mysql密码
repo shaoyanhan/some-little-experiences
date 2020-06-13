@@ -6,7 +6,7 @@ xampp的mysql的
 
 修改密码
 打开：http://localhost:8080/phpmyadmin/
-修改账户信息里面localhost的密码
+修改账户信息里面root@localhost的密码,修改之后无法连接，继续进行如下操作：
 
 第一次安装xampp：
 打开xampp界面的终端：
